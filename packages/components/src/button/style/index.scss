@@ -1,0 +1,161 @@
+.dlt-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #191f2b;
+  padding: 4px 15px;
+  height: 32px;
+  line-height: 1;
+  transition: .3s;
+  outline: none;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  border-color: #e4e6eb;
+  cursor: pointer;
+  user-select: none;
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+
+  &:hover {
+    color: #0081ff;
+    border-color: #0081ff;
+  }
+
+  &:active {
+    color: #0081ff;
+    border-color: #0081ff;
+    background: rgba(25, 31, 43, 0.06);
+  }
+
+  > .svg-icon + span {
+    margin-left: 6px;
+  }
+
+  > .icon-loading + span {
+    margin-left: 6px;
+  }
+
+  > .icon-loading + span:empty {
+    margin-left: 0px;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  .icon-loading {
+    font-size: 20px;
+  }
+}
+
+.dlt-btn-default {
+  &[disabled]:hover {
+    border-color: #e4e6eb;
+  }
+
+  &[disabled]:active {
+    background: #fff;
+  }
+}
+
+.dlt-btn-primary {
+  color: #fff;
+  border-color: #0081ff;
+  background: #0081ff;
+
+  &:hover, &:active {
+    color: #d1d2d5;
+    border-color: #056dd5;
+    background: #056dd5;
+  }
+}
+
+.dlt-btn-link {
+  height: auto;
+  color: #2e74ff;
+  padding: 0;
+  border-color: transparent;
+  background: transparent;
+
+  &:hover, &:active {
+    color: #056dd5;
+    border-color: transparent;
+    background: transparent;
+  }
+}
+
+.dlt-btn-danger {
+  height: auto;
+  color: #f03930;
+  padding: 0;
+  border-color: transparent;
+  background: transparent;
+
+  &:hover, &:active {
+    color: #c5332f;
+    border-color: transparent;
+    background: transparent;
+  }
+}
+
+.dlt-btn-link[disabled],
+.dlt-btn-link[disabled]:hover,
+.dlt-btn-link[disabled]:active {
+  color: #c2c6ce;
+  border-color: transparent;
+  background: transparent;
+}
+
+.dlt-btn-danger[disabled],
+.dlt-btn-danger[disabled]:hover,
+.dlt-btn-danger[disabled]:active {
+  color: #c2c6ce;
+  border-color: transparent;
+  background: transparent;
+}
+
+.dlt-primary-grey {
+  border-color: #b3d9ff;
+  background: #b3d9ff;
+
+  &:hover, &:active {
+    color: #fff;
+    border-color: #b3d9ff;
+    background: #b3d9ff;
+  }
+}
+
+.dlt-btn-largest {
+  height: 48px;
+  font-size: 16px;
+  padding: 11px 15px;
+
+  .icon-loading {
+    font-size: 24px;
+  }
+}
+
+.dlt-btn-large {
+  height: 40px;
+  font-size: 16px;
+  padding: 8px 15px;
+
+  .icon-loading {
+    font-size: 22px;
+  }
+}
+
+.icon-loading {
+  font-size: 24px;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}

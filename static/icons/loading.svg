@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>-mockplus-</title>
+    <g id="运营平台登录" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="证明材料交互细节" transform="translate(-363.000000, -1821.000000)">
+            <g id="编组" transform="translate(300.000000, 1797.000000)">
+                <g id="基础组件/icon/24/加载" transform="translate(63.000000, 24.000000)">
+                    <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M12,2.25 C12.4142136,2.25 12.75,2.58578644 12.75,3 C12.75,3.41421356 12.4142136,3.75 12,3.75 C7.44365081,3.75 3.75,7.44365081 3.75,12 C3.75,16.5563492 7.44365081,20.25 12,20.25 C16.5563492,20.25 20.25,16.5563492 20.25,12 C20.25,11.5857864 20.5857864,11.25 21,11.25 C21.4142136,11.25 21.75,11.5857864 21.75,12 C21.75,17.3847763 17.3847763,21.75 12,21.75 C6.61522369,21.75 2.25,17.3847763 2.25,12 C2.25,6.61522369 6.61522369,2.25 12,2.25 Z" id="路径" fill="#C2C6CE" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "name": "lego-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "scripts": {
+    "release": "release-it"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "lego",
+    "lego-ui",
+    "components"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "ontheway",
+  "license": "ISC",
+  "typeings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
