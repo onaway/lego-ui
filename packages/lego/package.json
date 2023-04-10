@@ -24,6 +24,6 @@
   "typeings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/onaway/lego-ui.git"
   }
 }
