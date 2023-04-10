@@ -19,7 +19,7 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "ontheway",
+  "author": "onaway",
   "license": "ISC",
   "typeings": "lib/index.d.ts",
   "repository": {
